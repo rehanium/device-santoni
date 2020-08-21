@@ -52,7 +52,7 @@ public class VibratorNotifStrengthPreference extends Preference implements
 
     public VibratorNotifStrengthPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-        mMinValue = 1578;
+        mMinValue = 0;
         mMaxValue = 3596;
 
         mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);

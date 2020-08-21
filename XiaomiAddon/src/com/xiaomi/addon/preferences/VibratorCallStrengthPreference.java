@@ -52,7 +52,7 @@ public class VibratorCallStrengthPreference extends Preference implements
 
     public VibratorCallStrengthPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-        mMinValue = 1578;
+        mMinValue = 0;
         mMaxValue = 3596;
 
         mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
