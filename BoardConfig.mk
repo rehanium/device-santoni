@@ -155,6 +155,9 @@ TARGET_USES_HWC2 := true
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 USE_OPENGL_RENDERER := true
 
+# Graphics
+debug.hwui.renderer=skiagl
+
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
