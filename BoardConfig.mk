@@ -60,6 +60,9 @@ TARGET_KERNEL_CLANG_VERSION := 12.0
 KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-12.0/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 
+#Lockscreen Charging
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Audio
 AUDIO_USE_LL_AS_PRIMARY_OUTPUT := true
 AUDIO_FEATURE_ENABLED_HIFI_AUDIO := true
