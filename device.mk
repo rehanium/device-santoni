@@ -504,7 +504,3 @@ PRODUCT_PACKAGES += \
 #XiaomiAddon
 PRODUCT_PACKAGES += \
     XiaomiAddon
-	
-#XiaomiParts
-PRODUCT_PACKAGES += \
-    XiaomiParts
