@@ -504,3 +504,12 @@ PRODUCT_PACKAGES += \
 #XiaomiAddon
 PRODUCT_PACKAGES += \
     XiaomiAddon
+
+#Lawnchair
+PRODUCT_PACKAGES += \
+    QuickstepSwitcherOverlay \
+    Lawnchair
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/privapp-permissions-ch.deletescape.lawnchair.ci.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-ch.deletescape.lawnchair.ci.xml \
+    $(LOCAL_PATH)/permissions/lawnchair-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/lawnchair-whitelist.xml
