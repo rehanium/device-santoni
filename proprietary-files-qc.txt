@@ -1,17 +1,17 @@
-# ADSP - from LA.UM.8.6.2.r1-08100-89xx.0
-vendor/bin/adsprpcd|5b803e679ddbce4e59c2a67433ffefa6396d61f3
-vendor/lib/libadsprpc.so|039f65218fb6805ec85ab0af0a431b013cda43d3
-vendor/lib/libadsp_default_listener.so|06609adb02ac321039e043b3fa85b84e02404b7a
-vendor/lib/libfastcvadsp_stub.so|9f82a7d713f92772e9b47570d50ba08c3c051991
-vendor/lib/libfastcvopt.so|d321a03869433dda8986e2a89a54b0248698ff2a
-vendor/lib/libmdsprpc.so|e46d2efaeee21f5a287b976bd9a1cd2f24eb2aba
-vendor/lib64/libadsprpc.so|660e02e80fa017d820723d91f0f451b26967e202
-vendor/lib64/libadsp_default_listener.so|2411edf852600158588e40858b4183566733438e
-vendor/lib64/libfastcvadsp_stub.so|50f415f15ba784877a081f0abc2224bb3904f531
-vendor/lib64/libfastcvopt.so|896b2a0cc8a5067cb176e2993be56ef419169b22
-vendor/lib64/libmdsprpc.so|bb811f9e8467f82821947863099cc15b9a09c51b
+# ADSP - from onc-user-10-QKQ1.191008.001-V11.0.1.0.QFLCNXM-release-keys
+vendor/bin/adsprpcd|cae0d0a86d4c49210ca0d7f5f075543f925da29e
+vendor/lib/libadsprpc.so|2a30e43f2e218d23fa9ae34c83c39a4159f7463a
+vendor/lib/libadsp_default_listener.so|d1c56ced08c710381c40b41b63789cddb7775c98
+vendor/lib/libfastcvadsp_stub.so|e1a47f372e8652f5cb96f3f9183c80076d74d543
+vendor/lib/libfastcvopt.so|135c4906db6df70bf643d963dc88ae8fe5a91458
+vendor/lib/libmdsprpc.so|bcd62e1e7fd924b92f121a623dae28d2835d4fa9
+vendor/lib64/libadsprpc.so|77e0281974b0288ed6e1811a7d5277be6df31d12
+vendor/lib64/libadsp_default_listener.so|bb139681ee345ab837caf2dddc4c84641d95b55a
+vendor/lib64/libfastcvadsp_stub.so|67d3e419fd0bd15b2197c3eac6247a6de54d8f5b
+vendor/lib64/libfastcvopt.so|b21bddb496e684f82fec7c302cdf5d8039d803c5
+vendor/lib64/libmdsprpc.so|34887fbebf9791aff387a7e3b47b34be5221b1f3
 
-# ADSP modules - from LA.UM.8.6.2.r1-08100-89xx.0
+# ADSP modules - from onc-user-10-QKQ1.191008.001-V11.0.1.0.QFLCNXM-release-keys
 vendor/lib/rfsa/adsp/libapps_mem_heap.so|5c82ad9cfe3f30105d899e2a4e90cc7566f81252
 vendor/lib/rfsa/adsp/libdspCV_skel.so|628985174b0088bed21c866d7984d23855e5e150
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|1ff4a48009e88435d93fd2b9b0c5ea59cedbb4f7
@@ -32,63 +32,63 @@ vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so|5615d3e71121af17065513d3bda320e23
 vendor/lib64/com.qualcomm.qti.ant@1.0.so|9ea9c15053bf6b3f30327855a655b4f8f5d30a07
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|f2a304bd9cf1c60610858e635193294e34254184
 
-# Audio libraries - from LA.UM.8.6.2.r1-08100-89xx.0
+# Audio libraries - from onc-user-10-QKQ1.191008.001-V11.0.1.0.QFLCNXM-release-keys
 etc/permissions/audiosphere.xml|3c6d8f14bd99e52a424282fd5d0a5b9b06485dea
 framework/audiosphere.jar|c1679f5aca56f0cb24745b3f7d219acd04833bed
-vendor/lib/libacdb-fts.so|ec0b3e9df8b4c12754906c87b0ad4c46fc41f73d
-vendor/lib/libacdbloader.so|dbb711fb5942985d6752efe8891c4a08c457edf5
-vendor/lib/libacdbrtac.so|d7e01060168ac69dd1d420366a9972e7344f91f1
-vendor/lib/libadiertac.so|25c0714361bf3aca46be42145e8a6a6cfd398a92
-vendor/lib/libadm.so|ec1b296b0600c85e4dccd3fa3d3be0b8d4e19640
-vendor/lib/libaudcal.so|1b4bfed58655eecaca655df8438e96061f772b5c
-vendor/lib/libaudioalsa.so|35cce51f69cb583dfa6c3e0d5da28d294b056ec0
-vendor/lib/libdrc.so|7ec4724b14da8c7720faaf3b2cc676037f6f360c
-vendor/lib/libqtigef.so|1aa0b2cc28b703cde34af8e6748af7db2035d68b
+vendor/lib/libacdb-fts.so|fdd083d9abf2e0b13d484e3a03759e49c71b080b
+vendor/lib/libacdbloader.so|1aa8b2885829385674af52ab144462cf8b6aab4b
+vendor/lib/libacdbrtac.so|34f5c1ed98df85d615190f16d805380def2e5fa0
+vendor/lib/libadiertac.so|b305c1790de066bd95b9e066c67e6c544f6db4c9
+vendor/lib/libadm.so|976d7afc3601f7f5b412d37bb6d2d42539fd2f8e
+vendor/lib/libaudcal.so|635bfe72bb25564bd0acbb926939ade1e7cd1087
+vendor/lib/libaudioalsa.so|25def7597e74ea37e3637ea9b58f4a30ce0ba090
+vendor/lib/libdrc.so|e5bb262ef16b331e7a6c0a3c4d812c00f16e1c76
+vendor/lib/libqtigef.so|bc1712389bd1e7ccc3c754f9f32a8d98c3f7698d
 vendor/lib/soundfx/libshoebox.so|538dc7ed2d3066ca956a1722e147808f96c0224b
-vendor/lib/libsurround_3mic_proc.so|c3889c5ba017b88b7265a472e168fe55db8ac769
-vendor/lib/soundfx/libasphere.so|79433e8819cc43c1b48f192aebc4e9a6fd58e011
-vendor/lib/soundfx/libqcbassboost.so|33493d26f223efb75dfb9f12579a8d0d5531e44c
-vendor/lib/soundfx/libqcreverb.so|788b84875d3f2c642c36369f581db8859fc1b566
-vendor/lib/soundfx/libqcvirt.so|a336eaf9785fb2d755dd8939223e4933a1202c6b
-vendor/lib64/libacdb-fts.so|fe69febf3863ed610feb465d812eb8579b774b94
-vendor/lib64/libacdbloader.so|7671b76011552efd0107b63fc88cddb7caf4e6df
-vendor/lib64/libacdbrtac.so|ef56910dd57e882479913a0629f92a6257c9cd36
-vendor/lib64/libadiertac.so|6cafb6d4e6be5484d7ec73596cb241423a87bc61
-vendor/lib64/libaudcal.so|3fa2420029e9edcde2993335eab91e8bcd3714f5
-vendor/lib64/libaudioalsa.so|bdf49c709df8a1a7a7e232a6cb1ba6d15af594c7
-vendor/lib64/libqtigef.so|a90ca160846180fd7d6f2408b36a1657d6ae4e89
-vendor/lib64/soundfx/libasphere.so|27154ce2eed6902f36ed8c85324cf61c96c8af02
-vendor/lib64/soundfx/libqcbassboost.so|6478c036f93a08c214aa38f61eef64dbdd04faef
-vendor/lib64/soundfx/libqcreverb.so|a3e3449e4ed972ba1a15b08e7f733cd9ebd49cc3
-vendor/lib64/soundfx/libqcvirt.so|4fef4005c237a22b649484e899e50e713575599e
+vendor/lib/libsurround_3mic_proc.so|0f6fc4183279e0cec9cc5d3e922559c77239e613
+vendor/lib/soundfx/libasphere.so|a58dccfd6d959c8f8c0e00a233ca39d72b5f13ad
+vendor/lib/soundfx/libqcbassboost.so|3bd1bbb22238f6bd8f782d74632d8150578ae184
+vendor/lib/soundfx/libqcreverb.so|b1e49693d4061aa128fe9244bdb3c5e58a55d73f
+vendor/lib/soundfx/libqcvirt.so|5802ef2fb6cbb17518240a03ac6defac139a78ad
+vendor/lib64/libacdb-fts.so|beba464dd2eef5958b046a392389bfd5459ab6f5
+vendor/lib64/libacdbloader.so|743b39c36bd8ad15f658b3f993fe5071e727fc80
+vendor/lib64/libacdbrtac.so|3b12c1761892f242dc8408edcedb90d0ade1671e
+vendor/lib64/libadiertac.so|f6aff966f2674a1cdf92005f0adb1f29bb05f25f
+vendor/lib64/libaudcal.so|bef9885ffee370645fdb2187d800b601872d4268
+vendor/lib64/libaudioalsa.so|0a8ba586d91720df0648f2a9d3d06b384a574955
+vendor/lib64/libqtigef.so|adfacbd30ab88f67c1672bb36172790f5be46f04
+vendor/lib64/soundfx/libasphere.so|eb86db6f0f91e9d7c76dc8e4fc63124922e6aed3
+vendor/lib64/soundfx/libqcbassboost.so|2c8fa391bd6942db174a3e59d92909b403acdc26
+vendor/lib64/soundfx/libqcreverb.so|e4f94bdb72ccfee9c505beb8042ca004d1faad5f
+vendor/lib64/soundfx/libqcvirt.so|55ff24260ade41d17365a196e8c3ee7950cbd8ee
 vendor/lib64/soundfx/libshoebox.so|cfc916d9a1ee617c248f784359df41a95d3b820a
 
-# Bluetooth - from LA.UM.8.6.2.r1-08100-89xx.0
--lib/libbtconfigstore.so|eeab5725457493c975bd6d2f2790fec778eaf2fc
--lib64/libbtconfigstore.so|abbfd1a5e773fba69dccb3121861ef3fec2cdab9
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|8429b451d671b1b5d55e171bf824952f4f67c381
+# Bluetooth - from onc-user-10-QKQ1.191008.001-V11.0.1.0.QFLCNXM-release-keys
+-lib/libbtconfigstore.so|b631dd3c97fc138807ba872242087a910b13e565
+-lib64/libbtconfigstore.so|88d584d582a8822af6c0f4a6e00446e6dbae06d1
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|535491e4a8036125259bab4579a53cadcb08dcc3
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|eab2344316c7c641f86440d33610cf0751c825fe
-vendor/lib64/libbtnv.so|57947639152164a367f3a66213a2cbed12744777
-vendor/lib64/libbt-hidlclient.so|0a0d0ac4e2f4e2e80f4ec488b53c18c96ff08dc6
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|805029b02176dea2a3937f44783dc2bb1cb9f85a
+vendor/lib64/libbtnv.so|9fd41f1b5e3cc035fe09efa26dcf076c9b58a8c4
+vendor/lib64/libbt-hidlclient.so|1ab2068ff7c71355e6cf7055f1d28a76da303742
 
-# Bluetooth (Audio) - from LA.UM.8.6.2.r1-08100-89xx.0
-vendor/lib64/hw/audio.bluetooth_qti.default.so|102539a0013edf06790215b21bed68c704437a96
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|93f09e7ee848e2d6fee7f0810ad8a3e57346b72c
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|ebdfcc7064fc144acf6cba300486c6394af3d73b
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|5e06b7b33d084975d6326875268cb237ad6d8559
-vendor/lib64/libbluetooth_audio_session_qti.so|c2b100d5fbce3d219515f8c359c6990a08e9fa94
-vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so|288a9824ae282cad32f02fbf0ee723a50702e923
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|9b7ae20ce9d6d2a67fdac94268cec441278cca3d
-vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|e08969ef1897ec5958894323f7d6e730a1d7ce25
-vendor/lib/hw/audio.bluetooth_qti.default.so|0bd3f25837d1aa37fb8e15316308afd710af6503
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|bec45d727a5e8977ddb7ddc4ee6856bdfdf5824e
-vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|84f86d20af330ee0bd44e6609c3df1149d04a1a6
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|63a54ed76fdfee5d7c1be4d756ec8ce4080072d4
-vendor/lib/libbluetooth_audio_session_qti.so|e4c2908f8257b403610a93df094c8717dc87ffd0
-vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so|b6e5d67869138d102595dd03562314d33c2e825e
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|e9cffc642dc8f15492ca316c276e02c7e146b90d
-vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so|fe0c94096ad70472271c0093ce6be226f74e40f4
+# Bluetooth (Audio) - onc-user-10-QKQ1.191008.001-V11.0.1.0.QFLCNXM-release-keys
+vendor/lib64/hw/audio.bluetooth_qti.default.so|a17474dec03b704cc9741c85f2f6aef62c5ad71e
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|a1a86ead8177ac54dfdab729b9adf06af1d4a747
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|4e188cd7cc009ced6af7901f357005623dd0875a
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|df20addad1f9c1c8b342aeee1ff9a5fbc5cf8bb8
+vendor/lib64/libbluetooth_audio_session_qti.so|efc32a2a4eaf0cf33b1741b62565b4c6e6495063
+vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so|8c6895ee0f64c33b829ce28d20de1021bf3e9cca
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|237a97fc3d3332b1466583178b548dd1525479ef
+vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|5677a85470b88400467410b9a264f56119b30046
+vendor/lib/hw/audio.bluetooth_qti.default.so|f99c2de8d7e5746ad777a758512b2a364462d59c
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|9880c5dcd6aca43d3caa7c16a1627a078a36d028
+vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|688065b7b8902d29a820aab3f5cc5dc584325423
+vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|e7efde96f1751fd7308568634380002fa325f4eb
+vendor/lib/libbluetooth_audio_session_qti.so|a61efd4c1c6a736b3f5c2fd571447fe6bd0423a4
+vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so|2aff95e3eb070334bee674f3706c3790b9c2e2ca
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|e2ff653e1a5e9d6379fa1fee6824642c4a615ce4
+vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so|0ff482f72a05eb9e2a4617fe03ae9e737843c885
 
 # Bluetooth (aptX) - from Crosshatch - QQ1A.191205.008
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
@@ -157,8 +157,8 @@ vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|cb293dc133be848cfa536b5d2cd
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|138dbd309e9e34d4143c71feca3eccb6b0f87ec4
 vendor/lib64/vendor.qti.latency@2.0.so|279b8fcd9f7032dff71f10f5d1a3b36112b9205e
 
-# Charger - from LA.UM.8.6.2.r1-08100-89xx.0
-vendor/bin/hvdcp_opti|1fd0d7839978c541c9b1cfa0312e0a983ae0762e
+# Charger - from onc-user-10-QKQ1.191008.001-V11.0.1.0.QFLCNXM-release-keys
+vendor/bin/hvdcp_opti|65b4c02ef2a7207f7e3ca33740429d9d3d8580b2
 
 # Dirac
 vendor/etc/diracmobile.config
@@ -202,10 +202,10 @@ vendor/lib64/libsecureui_svcsock.so|060bbd76ead3b3aeb323af0c7352f9445088d3fe
 vendor/lib64/libspl.so|8c848b95674bb6c9f40415568dafe086a3d952f7
 vendor/lib64/libssd.so|33d717f793c2579e3bd17b5ce6534cb68c12887d
 
-# DRM - Widevine - from LA.UM.8.6.r1-04000-89xx.0
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine|f4258fe902140e7a35c59f79d274dde89a80d1e8
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|ad2769dc38c425495c80e0a2cc4f3a4012108917
-vendor/lib64/libwvhidl.so|1b0dce24a4f77883785999b9cf6cb5686232c3b3
+# DRM - Widevine - LA.UM.8.6.r1-04000-89xx.0
+vendor/bin/hw/android.hardware.drm@1.2-service.widevine|b626d9bbf7043c66c8ef903c9d0e5183fc47388d
+vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|75335443a33a06a03eecfa714dfe9f1c0c4df2b1
+vendor/lib64/libwvhidl.so|4af61fdcf1186700ea7ee23c607fb9ce5fd0f0e8
 
 # FM - from onc-user-10-QKQ1.191008.001-V11.0.1.0.QFLCNXM-release-keys
 -product/lib/vendor.qti.hardware.fm@1.0.so|ac87ce9de88556bc624a4cdf04b28032fa24f70c
@@ -607,21 +607,21 @@ vendor/lib64/vendor.qti.imsrtpservice@1.0.so|559a2dbf409d86746ed4303f2e0089256bb
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so|5567616f4792889965b1bc254b245d5323ab6516
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|bee66b95aa31d6c536e27b67aed2094b0b63635f
 
-# Radio - IMS - from onc-user-10-QKQ1.191008.001-V11.0.1.0.QFLCNXM-release-keys
-product/lib64/libimscamera_jni.so|41512d3b9cd72b96e9b8ad5463566a3769f06cc1
-product/lib64/libimsmedia_jni.so|09b3c1ca8ba580a5b19aeba47b55399a88fef5e7
--product/priv-app/ims/ims.apk|83243696cdf482d71fd64d77d7c7745e2fc9ffb7
+# Radio - IMS - onc-user-10-QKQ1.191008.001-V11.0.1.0.QFLCNXM-release-keys
+product/lib64/libimscamera_jni.so|41fd9faa10818c9f7c5a14d372a07f79b0ca0daa
+product/lib64/libimsmedia_jni.so|448795a73bbf72fc0c9876f86a13769139ea8022
+-product/priv-app/ims/ims.apk|a3d6918dfe1abbcce807abb5f74cfd642485559f
 vendor/etc/init/ims_rtp_daemon.rc|b3c3a380204d7b1b3a58937db8c8e76c00ac8825
 vendor/etc/init/imsdatadaemon.rc|29face37c174aebcd1358f7d7ad0bd4baf83063b
 vendor/etc/init/imsqmidaemon.rc|dda16d842b7c65296e97bc9921b723a43b152ba3
 vendor/etc/init/imsrcsd.rc|2dc42ff6e4b6dd389bd3bc9a7af30dec2f1a45df
 vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so|936011dbcfd05ea9350f7410bb6f4d69ddd3fb61
-product/lib64/lib-imscamera.so|b646a782cb9778e7179e91e14a05f67bc2d523ae
-product/lib64/lib-imsvideocodec.so|8608be3cae0f89bfae0c19d3b47fd1c6a1f13b19
-product/lib64/lib-imsvt.so|e6b40a87cd98bc0f5158f2e60d568346ee5c1215
-product/lib64/lib-imsvtextutils.so|eeb28ae21c299c23015cee95daea28e72c21f133
-product/lib64/lib-imsvtutils.so|2acd66f67e94a71a94de8792e6ccc90750b9ef68
-vendor/lib64/lib-imsvtcore.so|11b534293b4a0959666b65d36cd5b6449eddff1e
+product/lib64/lib-imscamera.so|fc4ed521cd93512c7d54ca29736d7b13022cf5cd
+product/lib64/lib-imsvideocodec.so|027607a43a524e28e4aeca2378aa987e491acac0
+product/lib64/lib-imsvt.so|d650917fb938a70467f9b0f9f1319714278222cf
+product/lib64/lib-imsvtextutils.so|c8065a0ddf21c3ba9cffdc61c2b5b6488081b8be
+product/lib64/lib-imsvtutils.so|8e9bba6bbad8e8e5d3cfa40831262db5c745e073
+vendor/lib64/lib-imsvtcore.so|9844d23c5d6388fc8aefd3eac62bd1aaacdb1ab8
 
 # Sensors - from onc-user-10-QKQ1.191008.001-V11.0.1.0.QFLCNXM-release-keys
 vendor/bin/sensors.qti|49efa5f668386897f0c40108d207718d5ded4795
@@ -634,10 +634,11 @@ vendor/lib64/libsensor1.so|e62051ea2fda4750d62f5e9fb854c490c302d209
 vendor/lib64/libsensor_reg.so|3539a0e7888aa187e3d2bbdd357ff183ae6dfdf3
 vendor/lib64/sensors.ssc.so|38e61d8e175b7dc72a2e78c4b8b093446d439ad6
 
-# Thermal - from LA.UM.8.6.2.r1-08100-89xx.0
-vendor/bin/thermal-engine|ab6c8c35f0388eb372d5ac92ddb9afe6539195c6
--vendor/lib/libthermalclient.so|c0089a7fdd34bc5f3ea0556e5f4a087ab02fc34f
--vendor/lib64/libthermalclient.so|20f1fd238fc81bf1c6828ec416121c0ef66e0df1
+# Thermal - from onc-user-10-QKQ1.191008.001-V11.0.1.0.QFLCNXM-release-keys
+vendor/bin/thermal-engine|a8bc9bb1ed717c886316dd42b8af0ebb59b2bbec
+-vendor/lib/libthermalclient.so|a18540af4380aab3d6e6e880241b0c74c7967c0b
+-vendor/lib64/libthermalclient.so|13c27adf6e6ce8728854542c3ed8f3d12ade5615
+vendor/lib64/libthermalfeature.so|1c408911610e5b6a11853aff1900860f9e9a861f
 
 # Time services - from onc-user-10-QKQ1.191008.001-V11.0.1.0.QFLCNXM-release-keys
 -vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|27f9b81621c446baa8c37581d9bfbca2fd67b496
@@ -651,7 +652,7 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|038f43076908b1a704ba3507fc3a971e81fa5a99
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|f716dbcead5e10a7944d4842ee6f0c6dfdf52a3e
 
-# Wi-Fi - from onc-user-10-QKQ1.191008.001-V11.0.1.0.QFLCNXM-release-keys
+# Wi-Fi - onc-user-10-QKQ1.191008.001-V11.0.1.0.QFLCNXM-release-keys
 vendor/bin/wcnss_service|508f3a8ab26414cc16bf607f2ce3bbbb94f8228b
 
 # WiFi Display - from onc-user-10-QKQ1.191008.001-V11.0.1.0.QFLCNXM-release-keys
