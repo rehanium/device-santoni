@@ -1,0 +1,3 @@
+# adb push/pull /data/local/tmp.
+allow adbd shell_data_file:dir create_dir_perms;
+allow adbd shell_data_file:file create_file_perms;
