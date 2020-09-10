@@ -103,6 +103,7 @@ debug.hwui.use_buffer_age=false
 vendor.video.disable.ubwc=1
 debug.sdm.support_writeback=0
 debug.cpurend.vsync=false
+debug.hwui.renderer=skiagl
 
 # DRM
 drm.service.enabled=true
