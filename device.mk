@@ -505,11 +505,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiAddon
 
-# Youtube by Vanced Team
+#Prebuilts
 PRODUCT_PACKAGES += \
     Youtube \
     CameraGo \
     GalleryGo \
+    Chrome \
     RemovePackages
 
 PRODUCT_COPY_FILES += \
