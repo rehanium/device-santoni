@@ -221,7 +221,8 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1 \
-    libunwind
+    libbacktrace-vendor \
+    libunwind-vendor
 
 # FM
 PRODUCT_PACKAGES += \
@@ -472,6 +473,7 @@ PRODUCT_PACKAGES += \
 # VNDK
 PRODUCT_PACKAGES += \
     vndk-ext \
+    libstdc++.vendor
 
 # Wifi
 PRODUCT_PACKAGES += \
