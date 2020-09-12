@@ -544,4 +544,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libvpxV2JNI.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libvpxV2JNI.so \
 	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libvpxYTJNI.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libvpxYTJNI.so \
 	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libwebp_android.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libwebp_android.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libyoga.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libyoga.so    
+	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libyoga.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libyoga.so
+
+# Speed profile services and wifi-service to reduce RAM and storage.
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
