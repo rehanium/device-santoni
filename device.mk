@@ -506,45 +506,9 @@ PRODUCT_PACKAGES += \
 
 #Prebuilts
 PRODUCT_PACKAGES += \
-    Youtube \
-    CameraGo \
     GalleryGo \
     Chrome \
     RemovePackages
-
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm64/libc++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm64/libc++_shared.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm64/libcronet.76.0.3786.0.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm64/libcronet.81.0.4021.0.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm64/libdrishti_jni_native.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm64/libdrishti_jni_native.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm64/libfilterframework_jni.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm64/libfilterframework_jni.so \
-    $(LOCAL_PATH)/prebuilts/Youtube/lib/arm64/libframesequence.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm64/libframesequence.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm64/libgvr.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm64/libgvr.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm64/libgvr_audio.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm64/libgvr_audio.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm64/libjsc.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm64/libjsc.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm64/libopusJNI.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm64/libopusJNI.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm64/libopusV2JNI.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm64/libopusV2JNI.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm64/libunified_template_resolver.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm64/libunified_template_resolver.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm64/libvpx.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm64/libvpx.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm64/libvpxV2JNI.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm64/libvpxV2JNI.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm64/libvpxYTJNI.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm64/libvpxYTJNI.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm64/libwebp_android.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm64/libwebp_android.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm64/libyoga.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm64/libyoga.so \
-    $(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libc++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libc++_shared.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libcronet.76.0.3786.0.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libcronet.81.0.4021.0.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libdrishti_jni_native.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libdrishti_jni_native.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libfilterframework_jni.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libfilterframework_jni.so \
-    $(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libframesequence.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libframesequence.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libgvr.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libgvr.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libgvr_audio.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libgvr_audio.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libjsc.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libjsc.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libopusJNI.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libopusJNI.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libopusV2JNI.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libopusV2JNI.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libunified_template_resolver.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libunified_template_resolver.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libvpx.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libvpx.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libvpxV2JNI.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libvpxV2JNI.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libvpxYTJNI.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libvpxYTJNI.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libwebp_android.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libwebp_android.so \
-	$(LOCAL_PATH)/prebuilts/Youtube/lib/arm/libyoga.so:$(TARGET_COPY_OUT_SYSTEM)/app/Youtube/lib/arm/libyoga.so
 
 # Speed profile services and wifi-service to reduce RAM and storage.
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
