@@ -75,6 +75,7 @@ persist.debug.coresight.config=stm-events
 # Dalvik
 dalvik.vm.dex2oat-filter=speed
 dalvik.vm.image-dex2oat-filter=speed
+dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.heaptargetutilization=0.75
 
 # Display
