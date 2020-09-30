@@ -220,8 +220,7 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1 \
-    libbacktrace-vendor \
-    libunwind-vendor
+    libunwind
 
 # FM
 PRODUCT_PACKAGES += \
@@ -260,6 +259,9 @@ PRODUCT_PACKAGES += \
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
+    android.hidl.base@1.0_system \
+    android.hidl.manager@1.0 \
+    android.hidl.manager@1.0_system \
     android.hidl.manager@1.0-java
 
 # HW crypto
@@ -443,10 +445,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service \
     libsensorndkbridge
 
-# Shims
-PRODUCT_PACKAGES += \
-    libcamshim
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += device/xiaomi/santoni
 
@@ -472,10 +470,9 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
 
-# VNDK
+# VNDK-SP:
 PRODUCT_PACKAGES += \
-    vndk-ext \
-    libstdc++.vendor
+    vndk-sp
 
 # Wifi
 PRODUCT_PACKAGES += \
