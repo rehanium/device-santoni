@@ -196,7 +196,8 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libqdMetaData.system \
     liboverlay \
-    libtinyxml
+    libtinyxml \
+    disable_configstore
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
