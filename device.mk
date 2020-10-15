@@ -36,7 +36,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-arrow
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
-    $(LOCAL_PATH)/overlay-arrow/packages/apps/Snap
+    $(LOCAL_PATH)/overlay-arrow/packages/apps/Snap \
     framework-res
 
 # Screen density
