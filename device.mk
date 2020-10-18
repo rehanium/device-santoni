@@ -154,6 +154,11 @@ PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library
 
+# Binder
+PRODUCT_PACKAGES += \
+    libhwbinder \
+    libhwbinder.vendor
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8937 \
@@ -255,7 +260,9 @@ PRODUCT_PACKAGES += \
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
-    android.hidl.manager@1.0-java
+    android.hidl.manager@1.0-java \
+    libhidltransport \
+    libhidltransport.vendor
 
 # HW crypto
 PRODUCT_PACKAGES += \
@@ -298,11 +305,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    lights.msm8937
-
-PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-impl \
-    android.hardware.light@2.0-service
+    android.hardware.light@2.0-service.xiaomi_santoni
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -402,7 +405,8 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     librmnetctl \
     libxml2 \
-    libprotobuf-cpp-full
+    libprotobuf-cpp-full-vendorcompat \
+    libprotobuf-cpp-lite-vendorcompat
 
 # Telephony
 PRODUCT_PACKAGES += \
@@ -433,6 +437,10 @@ PRODUCT_PACKAGES += \
 # Shims
 PRODUCT_PACKAGES += \
     libcamshim
+
+# Signapk
+PRODUCT_HOST_PACKAGES += \
+    signapk
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += device/xiaomi/santoni
