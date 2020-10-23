@@ -12,3 +12,8 @@ allow system_app sysfs_vibrator:file { getattr open read write };
 allow system_app vendor_persist_camera_prop:file { open read };
 allow system_app fm_prop:property_service set;
 get_prop(system_app, fm_prop)
+allow system_app iorapd:binder call;
+allow system_app installd:binder call;
+allow system_app netd:binder call;
+allow system_app hal_power_default:binder call;
+allow system_app proc_vmallocinfo:file { open read getattr };
