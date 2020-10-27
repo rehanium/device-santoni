@@ -490,6 +490,7 @@ PRODUCT_COPY_FILES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
+    android.hardware.tetheroffload.config@1.0 \
     libwifi-hal-qcom \
     libcld80211 \
     libqsap_sdk \
