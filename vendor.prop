@@ -117,9 +117,6 @@ vendor.video.disable.ubwc=1
 debug.sdm.support_writeback=0
 vendor.gralloc.disable_ahardware_buffer=1
 
-# Dolby
-vendor.audio.dolby.ds2.enabled=true
-
 # DRM
 drm.service.enabled=true
 
