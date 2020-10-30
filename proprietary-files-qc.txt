@@ -238,6 +238,7 @@ vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc|d3844699c845ce5de4c8b50
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so|a30daef6186525b93af9a366b27b3bbd59c3eabe
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so|1f72539f1e36b4b8ccdba84d11b454f0cfe1e6f7
 vendor/lib/hw/vendor.qti.gnss@4.0-impl.so|1788c1628f9ca2c3d73b8af0350c6862db3792e7
+vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|19a1f7ffb8118c207aa8cb2318996605771c339a
 vendor/lib64/libbatching.so|78c5a7037731f790ccab39db4bda89e539a6ff20
 vendor/lib64/libdataitems.so|f13cb93394d8aae1eef85c4730b5c8f9ace092a9
 vendor/lib64/libgdtap.so|016814ded1880cc6d720d816a130887a5c5ac7d7
