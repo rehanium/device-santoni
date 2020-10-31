@@ -176,6 +176,11 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
