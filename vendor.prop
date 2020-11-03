@@ -115,7 +115,6 @@ vendor.gralloc.enable_fb_ubwc=1
 debug.hwui.use_buffer_age=false
 vendor.video.disable.ubwc=1
 debug.sdm.support_writeback=0
-vendor.gralloc.disable_ahardware_buffer=1
 
 # Dolby
 vendor.audio.dolby.ds2.enabled=true
