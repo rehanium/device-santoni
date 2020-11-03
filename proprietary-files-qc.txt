@@ -25,34 +25,34 @@ vendor/lib/rfsa/adsp/libscveT2T_skel.so|91b9200dbb982abf0d6b440668252d892a616f66
 system_ext/lib/com.qualcomm.qti.ant@1.0.so|6b8eb143ce3e33e474c7bc28ff3cc58b86c6369c
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so|7fffcdca309796183708d9e345d3cd97461d901d
 
-# Audio libraries - from LA.UM.8.6.2.r1-08100-89xx.0
-system_ext/etc/permissions/audiosphere.xml|3c6d8f14bd99e52a424282fd5d0a5b9b06485dea
-system_ext/framework/audiosphere.jar|c1679f5aca56f0cb24745b3f7d219acd04833bed
-vendor/lib/libacdb-fts.so|ec0b3e9df8b4c12754906c87b0ad4c46fc41f73d
-vendor/lib/libacdbloader.so|dbb711fb5942985d6752efe8891c4a08c457edf5
-vendor/lib/libacdbrtac.so|d7e01060168ac69dd1d420366a9972e7344f91f1
-vendor/lib/libadiertac.so|25c0714361bf3aca46be42145e8a6a6cfd398a92
-vendor/lib/libadm.so|ec1b296b0600c85e4dccd3fa3d3be0b8d4e19640
-vendor/lib/libaudcal.so|1b4bfed58655eecaca655df8438e96061f772b5c
-vendor/lib/libaudioalsa.so|35cce51f69cb583dfa6c3e0d5da28d294b056ec0
-vendor/lib/libdrc.so|7ec4724b14da8c7720faaf3b2cc676037f6f360c
-vendor/lib/libqtigef.so|1aa0b2cc28b703cde34af8e6748af7db2035d68b
-vendor/lib/libsurround_3mic_proc.so|c3889c5ba017b88b7265a472e168fe55db8ac769
-vendor/lib/soundfx/libasphere.so|79433e8819cc43c1b48f192aebc4e9a6fd58e011
-vendor/lib/soundfx/libqcbassboost.so|33493d26f223efb75dfb9f12579a8d0d5531e44c
-vendor/lib/soundfx/libqcreverb.so|788b84875d3f2c642c36369f581db8859fc1b566
-vendor/lib/soundfx/libqcvirt.so|a336eaf9785fb2d755dd8939223e4933a1202c6b
-vendor/lib64/libacdb-fts.so|fe69febf3863ed610feb465d812eb8579b774b94
-vendor/lib64/libacdbloader.so|7671b76011552efd0107b63fc88cddb7caf4e6df
-vendor/lib64/libacdbrtac.so|ef56910dd57e882479913a0629f92a6257c9cd36
-vendor/lib64/libadiertac.so|6cafb6d4e6be5484d7ec73596cb241423a87bc61
-vendor/lib64/libaudcal.so|3fa2420029e9edcde2993335eab91e8bcd3714f5
-vendor/lib64/libaudioalsa.so|bdf49c709df8a1a7a7e232a6cb1ba6d15af594c7
-vendor/lib64/libqtigef.so|a90ca160846180fd7d6f2408b36a1657d6ae4e89
-vendor/lib64/soundfx/libasphere.so|27154ce2eed6902f36ed8c85324cf61c96c8af02
-vendor/lib64/soundfx/libqcbassboost.so|6478c036f93a08c214aa38f61eef64dbdd04faef
-vendor/lib64/soundfx/libqcreverb.so|a3e3449e4ed972ba1a15b08e7f733cd9ebd49cc3
-vendor/lib64/soundfx/libqcvirt.so|4fef4005c237a22b649484e899e50e713575599e
+# Audio libraries - from LA.UM.9.6.2.r1-02500-89xx.0
+system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
+system_ext/framework/audiosphere.jar|9c28317f12b93a6d881c80a991ff24716fce4a12
+vendor/lib/libacdb-fts.so|ce5d9ee6188712bb55658fc00548aef96ec0ff17
+vendor/lib/libacdbloader.so|23a97342d2bbeacc1a02e89a8fc761cf79ccee63
+vendor/lib/libacdbrtac.so|58e01597eb162cc5783d9ca6da54e46cf67ad638
+vendor/lib/libadiertac.so|d7d70e99afaad0de116bf757b0621b9bb4dcd93d
+vendor/lib/libadm.so|a5e6c65b7133440b4550234db4454e4c81627f66
+vendor/lib/libaudcal.so|f4b89803ee87a2946ca0ba42ae92270dbfd29d81
+vendor/lib/libaudioalsa.so|58feb2c5cbc4ac6e23ef4896c87785bed8db3c80
+vendor/lib/libdrc.so|303d67b5bfea162ae994d3817de317258035c42a
+vendor/lib/libqtigef.so|fbb307c0da385bf09cbdef714e8fc1ecfc7ba6fd
+vendor/lib/libsurround_3mic_proc.so|84a4d84fcf567554fb5174fc6d41310d864e5f8e
+vendor/lib/soundfx/libasphere.so|c5d774c899e30c8e14ff20b1790df553b34e41ec
+vendor/lib/soundfx/libqcbassboost.so|0692972233c9bea10d6dfca1d37106af54929dfd
+vendor/lib/soundfx/libqcreverb.so|87a70409821a928f77310147b32e9aa39878fdf5
+vendor/lib/soundfx/libqcvirt.so|af5092952cac7cfd46e9d74ea002f845c5c53eaf
+vendor/lib64/libacdb-fts.so|8bf7d9173cdf503ffa240be382d8bfb06c6dfdb5
+vendor/lib64/libacdbloader.so|6d821822f1b13ef91b4fb3931300a2e5d57a102f
+vendor/lib64/libacdbrtac.so|8975cdf11a072bd10c9c8aaf41612a072376ab3c
+vendor/lib64/libadiertac.so|e6cddad2fe64c4b6fb667c95b918d235dd6da01d
+vendor/lib64/libaudcal.so|ec25307c9595524b2c23e9db0208688d5c35f0d3
+vendor/lib64/libaudioalsa.so|534d4dc07fecea0611273c745721b1ed2015a3a3
+vendor/lib64/libqtigef.so|b3f1cb946809bfe20a4afced73b4fd24c5591421
+vendor/lib64/soundfx/libasphere.so|0074f7645a035955e35341f76aa414608ab569ba
+vendor/lib64/soundfx/libqcbassboost.so|b773dcb398c3695db22649d5f003feba17d95107
+vendor/lib64/soundfx/libqcreverb.so|c3451756a4cd568c5892c570e3327f8825e1ce06
+vendor/lib64/soundfx/libqcvirt.so|3d2e3bb6023b6c490e7e47e1e833a49d76b8071c
 
 # Bluetooth - from LA.UM.9.6.2.r1-02500-89xx.0
 system_ext/lib/vendor.qti.hardware.fm@1.0.so|847a077921ba3c64aeb5dd47ccad1697a1ad2fbb
