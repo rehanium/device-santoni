@@ -362,8 +362,7 @@ PRODUCT_PACKAGES += \
 
 # Pixel Overlay
 PRODUCT_PACKAGES += \
-    PixelOverlay \
-    PixelSettingsOverlay
+    PixelOverlay
 
 # Power
 PRODUCT_PACKAGES += \
