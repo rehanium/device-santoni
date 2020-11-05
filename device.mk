@@ -183,7 +183,7 @@ include $(LOCAL_PATH)/rootdir/charger/charger.mk
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
-    Settings
+    NexusLauncherRelease
 
 # Display
 PRODUCT_PACKAGES += \
