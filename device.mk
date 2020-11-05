@@ -394,8 +394,7 @@ PRODUCT_PACKAGES += \
     init.goodix.sh \
     init.spectrum.sh \
     init.qcom.early_boot.sh \
-    init.qcom.post_boot.sh \
-    init.qcom.sensors.sh
+    init.qcom.post_boot.sh
 
 # RCS
 PRODUCT_PACKAGES += \
