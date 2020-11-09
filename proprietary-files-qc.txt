@@ -366,11 +366,6 @@ vendor/firmware/a530v3_gpmu.fw2|0a2f6f450231673d75ba39e5d28776db3becf810
 vendor/firmware/a530v3_seq.fw2|8963a53acc689725dee4b22881a4dd4b80e5def8
 vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
 
-# Hostapd - from LA.UM.9.6.2.r1-02500-89xx.0
-vendor/bin/fstman|4716e9fc5fa7490f79b51731c63fbe0d5de6e656
-vendor/etc/init/vendor.qti.hardware.fstman@1.0-service.rc|126f8f22b3641b22f69ec6f15e1d7ecd6d74618b
-vendor/lib64/vendor.qti.hardware.fstman@1.0.so|2e72fe011476254a3152b00c702ac2d66019454f
-
 # Keystore - from LA.UM.8.6.2.r1-08100-89xx.0
 vendor/lib/hw/keystore.msm8937.so|35bcac4ff2e2a5ec0f93640b3e324f44a5c4314c
 vendor/lib64/hw/keystore.msm8937.so|a5c96f7cffce0d9d45e11364fd61532e856416ba
