@@ -2,11 +2,13 @@ ro.alarm_boot              u:object_r:vendor_alarm_boot_prop:s0
 persist.audio.dirac        u:object_r:dirac_prop:s0
 persist.net.doxlat         u:object_r:vendor_xlat_prop:s0
 persist.camera.            u:object_r:camera_prop:s0
+persist.device_config.     u:object_r:device_config_runtime_native_prop:s0
 sys.listeners.registered   u:object_r:vendor_tee_listener_prop:s0
 sys.post_boot.parsed       u:object_r:vendor_mpctl_prop:s0
 wlan.driver.config         u:object_r:wifi_prop:s0
 wlan.driver.ath            u:object_r:wifi_prop:s0
 wifi.active.interface      u:object_r:wifi_prop:s0
+ctl.stop                   u:object_r:ctl_stop_prop:s0
 
 # Dolby
 persist.vendor.dolby.loglevel                 u:object_r:vendor_dolby_loglevel_prop:s0
