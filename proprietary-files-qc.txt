@@ -358,14 +358,6 @@ vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
 vendor/lib/hw/keystore.msm8937.so|35bcac4ff2e2a5ec0f93640b3e324f44a5c4314c
 vendor/lib64/hw/keystore.msm8937.so|a5c96f7cffce0d9d45e11364fd61532e856416ba
 
-# Keymaster - from LA.UM.8.6.2.r1-08100-89xx.0
-vendor/lib/libkeymasterutils.so|e92bf3e1ad74e6dc12c47adc103b69deae318721
-vendor/lib/libkeymasterprovision.so|774a507a334a84897b88b53641ea31686fe17ef7
-vendor/lib/libkeymasterdeviceutils.so|ae15183797ebc54a3775bdcfdfde42172dfa2cb6
-vendor/lib64/libkeymasterutils.so|a81bdd48359cc8ac4458d4addab1ef2104fbd385
-vendor/lib64/libkeymasterprovision.so|1ec9b765fb4e2b22a60c7c1517c756963479c9cc
-vendor/lib64/libkeymasterdeviceutils.so|ea44915adfee57f1bd813b2184987565d396ab82
-
 # Listen - from LA.UM.8.6.2.r1-08100-89xx.0
 vendor/lib/hw/sound_trigger.primary.msm8937.so|92453271f6834a02a32416b6ff690be2c4e76984
 vendor/lib/libadpcmdec.so|0b00273d1321f4fde109b1f8be514ab0ac6bedf1
