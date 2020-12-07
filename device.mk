@@ -400,7 +400,6 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.sh \
     init.qcom.usb.rc \
-    init.msm.usb.configfs.rc \
     init.target.rc \
     ueventd.qcom.rc \
     init.extras.rc
@@ -484,7 +483,8 @@ PRODUCT_PACKAGES += \
 
 # USB HAL
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.santoni
+    android.hardware.usb@1.2-service-qti \
+    android.hardware.usb.gadget@1.0-service-qti
 
 # Vibrator
 PRODUCT_PACKAGES += \
