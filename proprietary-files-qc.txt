@@ -379,8 +379,9 @@ vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
 # Keymaster - from LA.UM.9.6.2.r1-03300-89xx.0
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|c2a333293b419b363908ec7234e9e511d16c9b23
 vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|a1e7adad1a143186de80351f184c97c734d322ee
-vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|bfa493f5b07850b3c8f96b3e036a25bc7923b89c
+vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6b362059e9a6ebd023de98f
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|cce8913b8bdbdf0e50f5fdecd47823a11330534b
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|671fc714df3c229e9e6678db16e673b272225bcb
 vendor/lib/libkeymasterutils.so|f4272fbd9055ad44858f26d8aa7bc7cf0b1742ac
 vendor/lib/libkeymasterprovision.so|c20cc8607308894d4c55e8a3ecc51370db375a36
 vendor/lib/libkeymasterdeviceutils.so|48614bde0930f79a4046d4d32d439f4d99359999
