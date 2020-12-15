@@ -223,9 +223,11 @@ vendor/bin/hw/android.hardware.drm@1.2-service.widevine|9b94131dbe81d17e4a106e16
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|ad2769dc38c425495c80e0a2cc4f3a4012108917
 vendor/lib64/libwvhidl.so|83aa7350435b46b05a6a8bc91b91cd8a0ba633a5
 
-# Gatekeeper - from LA.UM.8.6.2.r1-08600-89xx.0
-vendor/lib/hw/gatekeeper.msm8937.so|f33d89c54a0423023d8e5ac884bcbaf1b9f5c11c
-vendor/lib64/hw/gatekeeper.msm8937.so|710afb0bd16813f3dfa4e42c31a9307e3753f364
+# Gatekeeper - from LA.UM.9.6.2.r1-03300-89xx.0
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|de1e8d026b16255040dbe6eb67faa73c9b656553
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|f835499cca15129395d0aeb964cb18504512e0c4
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|881ee60c801961f2fb9dd766e0840370add4f506
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
 
 # GPS - from LA.UM.9.6.2.r1-03300-89xx.0
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti|d458a2aadc1d00df4696d6793e550f4a9422a2c9
@@ -374,11 +376,11 @@ vendor/firmware/a530v3_gpmu.fw2|0a2f6f450231673d75ba39e5d28776db3becf810
 vendor/firmware/a530v3_seq.fw2|8963a53acc689725dee4b22881a4dd4b80e5def8
 vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
 
-# Keystore - from LA.UM.8.6.2.r1-08600-89xx.0
-vendor/lib/hw/keystore.msm8937.so|35bcac4ff2e2a5ec0f93640b3e324f44a5c4314c
-vendor/lib64/hw/keystore.msm8937.so|a5c96f7cffce0d9d45e11364fd61532e856416ba
-
 # Keymaster - from LA.UM.9.6.2.r1-03300-89xx.0
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|c2a333293b419b363908ec7234e9e511d16c9b23
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|a1e7adad1a143186de80351f184c97c734d322ee
+vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|bfa493f5b07850b3c8f96b3e036a25bc7923b89c
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|cce8913b8bdbdf0e50f5fdecd47823a11330534b
 vendor/lib/libkeymasterutils.so|f4272fbd9055ad44858f26d8aa7bc7cf0b1742ac
 vendor/lib/libkeymasterprovision.so|c20cc8607308894d4c55e8a3ecc51370db375a36
 vendor/lib/libkeymasterdeviceutils.so|48614bde0930f79a4046d4d32d439f4d99359999
