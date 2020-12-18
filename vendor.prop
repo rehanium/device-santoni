@@ -45,6 +45,19 @@ ro.af.client_heap_size_kbyte=7168
 ro.config.vc_call_vol_steps=8
 ro.config.media_vol_steps=20
 
+# Audio dynamic feature flags
+vendor.audio.feature.hifi_audio.enable=true
+vendor.audio.feature.compr_voip.enable=true
+vendor.audio.feature.src_trkn.enable=true
+vendor.audio.feature.wsa.enable=true
+vendor.audio.feature.fluence.enable=true
+vendor.audio.feature.custom_stereo.enable=true
+vendor.audio.feature.anc_headset.enable=true
+vendor.audio.feature.fm.enable=true
+vendor.audio.read.wsatz.type=true
+vendor.audio.feature.multi_voice_session.enable=true
+vendor.audio.feature.incall_music.enable=true
+
 # Bluetooth
 persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive
 persist.vendor.qcom.bluetooth.enable.splita2dp=false
