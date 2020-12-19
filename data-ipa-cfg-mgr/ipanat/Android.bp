@@ -3,8 +3,6 @@
 cc_library_shared {
     name: "libipanat",
 
-    header_libs: ["generated_kernel_headers"],
-
     srcs: [
         "src/ipa_nat_drv.c",
         "src/ipa_nat_drvi.c",
