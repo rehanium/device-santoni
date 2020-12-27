@@ -166,9 +166,6 @@ ifeq ($(HOST_OS),linux)
   endif
 endif
 
-# Encryption
-TARGET_HW_DISK_ENCRYPTION := true
-
 # Filesystem
 TARGET_EXFAT_DRIVER := sdfat
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
