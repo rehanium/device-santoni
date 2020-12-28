@@ -2775,13 +2775,15 @@ static int readFromFile(char* fileName, char* buffer, int bufferSize)
     /* If file is bigger for given buffer, exit */
     if (fileSize > bufferSize){
         ALOGE("%s: Error %d > %d", __func__, fileSize, bufferSize);
+		fclose(fp);
         return bytesRead;
     }
 
     bytesRead = fread(buffer, 1, bufferSize, fp);
     ALOGD(" %s: bytesRead: %d", __func__, bytesRead);
 
-    return bytesRead;
+    fclose(fp);
+	return bytesRead;
 }
 
 /******************************************************************************

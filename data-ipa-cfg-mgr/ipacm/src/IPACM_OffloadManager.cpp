@@ -330,6 +330,7 @@ RET IPACM_OffloadManager::addDownstream(const char * downstream_name, const Pref
 
 	IPACMDBG_H("Posting event IPA_DOWNSTREAM_ADD\n");
 	IPACM_EvtDispatcher::PostEvt(&evt);
+	free(evt_data);
 
 	return SUCCESS;
 }
@@ -375,6 +376,7 @@ RET IPACM_OffloadManager::removeDownstream(const char * downstream_name, const P
 
 	IPACMDBG_H("Posting event IPA_DOWNSTREAM_DEL\n");
 	IPACM_EvtDispatcher::PostEvt(&evt);
+	free(evt_data);
 
 	return SUCCESS;
 }

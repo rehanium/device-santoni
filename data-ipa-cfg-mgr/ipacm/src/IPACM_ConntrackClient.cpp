@@ -149,6 +149,7 @@ int IPACM_ConntrackClient::IPAConntrackEventCB
 
 /* NFCT_CB_STOLEN means that the conntrack object is not released after the
 	 callback That must be manually done later when the object is no longer needed. */
+	free(ct_data);
 	return NFCT_CB_STOLEN;
 
 IGNORE:

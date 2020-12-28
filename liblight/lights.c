@@ -332,6 +332,7 @@ static int open_lights(const struct hw_module_t* module, char const* name,
     dev->set_light = set_light;
 
     *device = (struct hw_device_t*)dev;
+	free(dev);
     return 0;
 }
 

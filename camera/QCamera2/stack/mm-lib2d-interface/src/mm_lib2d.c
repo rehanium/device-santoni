@@ -526,6 +526,7 @@ lib2d_error mm_lib2d_start_job(void *lib2d_obj_handle,
     free(p_in_frame);
     free(p_out_frame);
     free(p_meta);
+	free(p_job_info);
     return MM_LIB2D_ERR_MEMORY;
   }
 
@@ -594,9 +595,11 @@ lib2d_error mm_lib2d_start_job(void *lib2d_obj_handle,
   rc = IMG_COMP_ABORT(p_comp, NULL);
   if (IMG_ERROR(rc)) {
     LOGE("comp abort failed %d", rc);
+	free(p_job_info);
     return rc;
   }
 
+  free(p_job_info);
   return MM_LIB2D_SUCCESS;
 ERROR:
   free(p_in_frame);

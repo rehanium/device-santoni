@@ -2466,6 +2466,7 @@ int IPACM_Wan::post_wan_up_tether_evt(ipa_ip_type iptype, int ipa_if_num_tether)
 		evt_data.evt_data = (void *)wanup_data;
 		IPACM_EvtDispatcher::PostEvt(&evt_data);
 
+	free(wanup_data);
 	return IPACM_SUCCESS;
 }
 
@@ -2517,6 +2518,7 @@ int IPACM_Wan::post_wan_down_tether_evt(ipa_ip_type iptype, int ipa_if_num_tethe
 	}
 		evt_data.evt_data = (void *)wandown_data;
 		IPACM_EvtDispatcher::PostEvt(&evt_data);
+	free(wandown_data);
 	return IPACM_SUCCESS;
 }
 #endif

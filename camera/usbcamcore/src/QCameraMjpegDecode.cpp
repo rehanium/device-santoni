@@ -164,6 +164,7 @@ MJPEGD_ERR mjpegDecoderInit(void** mjpegd_obj)
     *mjpegd_obj = (void *)mjpegd;
 
     ALOGD("%s: X", __func__);
+	free(mjpegd);
     return  MJPEGD_NO_ERROR;
 }
 
